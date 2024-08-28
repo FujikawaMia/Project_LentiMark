@@ -1,4 +1,4 @@
-# Lenti Marker Algorithm
+# LentiMark Algorithm
 
 ## Original Paper
 
@@ -73,7 +73,7 @@ When the program starts, you will receive instructions pasted to the command lin
 marker in full view of the camera and follow these instructions to calibrate your marker. The program will
 collect 30 data points and then quit, storing information in the `angleMap` file. Each line of the `angleMap`
 file has the following format:
-<Marker ID> <X VMP Slope> <X VMP 0 degree position> <Y VMP Slope> <Y VMP 0 degree position>
+<Marker_ID> <X_VMP_Slope> <X_VMP_0_degree_position> <Y_VMP_Slope> <Y_VMP_0_degree_position>
 This information is used in the detection algorithm to convert black peak position to angle.
 
 ### Step 3: Start Detection
